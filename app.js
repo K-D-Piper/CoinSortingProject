@@ -52,6 +52,28 @@ let TotalCount = (PennyCount * .01) + (NickelCount * .05) + (DimeCount * .10) + 
 console.log(`There are ${coins} coins! Thats $ ${TotalCount.toFixed(2)} in total!`) 
 
 
+//next part putting coins in wrappers. 
+//so once again, start with pennies 
+//let Pennies_Wrapper = (value_pennies * 50)     = value in dollars 
+
+let PennyWrappers = PennyCount / 50
+let PennysLeft = PennyCount - PennyWrappers
+console.log(`With that many pennies you'll fill ${PennyWrappers.toFixed(0)} wrappers. There will be ${PennysLeft.toFixed(2)} pennies left over.`)
+
+let NickelWrappers = NickelCount / 40 
+let NickelsLeft =  NickelCount - NickelWrappers
+console.log(`With that many nickels you'll fill ${NickelWrappers.toFixed(0)} wrappers. There will be ${NickelsLeft.toFixed(2)} nickels left over.`)
+
+let DimeWrappers = DimeCount / 50
+let DimesLeft = DimeWrappers - DimeWrappers
+console.log(`With that many dimes you'll fill ${DimeWrappers.toFixed(0)} wrappers. There will be ${DimesLeft.toFixed(2)} dimes left over.`)
+
+let QuarterWrapper = QuarterCount / 40
+let QuartersLeft = QuarterCount - QuarterWrapper
+console.log(`With that many quarters you'll fill ${QuarterWrapper.toFixed(0)} wrappers. There will be ${QuartersLeft.toFixed(2)} quarters left over.`)
+
+
+
 /* First Attempt. Commented out but still may use for refernecne. 
 //Step One. Assign Values
 
