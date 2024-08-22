@@ -56,18 +56,18 @@ console.log(`There are ${coins} coins! Thats $ ${TotalCount.toFixed(2)} in total
 //Step 4. Log results into console
 
 let PennyWrappers = PennyCount / 50
-let PennysLeft = PennyCount - PennyWrappers
+let PennysLeft = PennyCount - 100
 console.log(`With that many pennies you'll fill ${PennyWrappers.toFixed(0)} wrappers. There will be ${PennysLeft.toFixed(2)} pennies left over.`)
 
 let NickelWrappers = NickelCount / 40 
-let NickelsLeft =  NickelCount - NickelWrappers
+let NickelsLeft =  NickelCount - 80
 console.log(`With that many nickels you'll fill ${NickelWrappers.toFixed(0)} wrappers. There will be ${NickelsLeft.toFixed(2)} nickels left over.`)
 
 let DimeWrappers = DimeCount / 50
-let DimesLeft = DimeWrappers - DimeWrappers
+let DimesLeft = DimeCount - 100
 console.log(`With that many dimes you'll fill ${DimeWrappers.toFixed(0)} wrappers. There will be ${DimesLeft.toFixed(2)} dimes left over.`)
 
 let QuarterWrapper = QuarterCount / 40
-let QuartersLeft = QuarterCount - QuarterWrapper
+let QuartersLeft = QuarterCount - 80
 console.log(`With that many quarters you'll fill ${QuarterWrapper.toFixed(0)} wrappers. There will be ${QuartersLeft.toFixed(2)} quarters left over.`)
 
